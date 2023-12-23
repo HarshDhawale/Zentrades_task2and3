@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ead9d9; /* Dark color for body */
+  
+}
+.column-headings {
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin-bottom: 10px;
+}
+
+.heading {
+  position: relative;
+  
+}
+.dashboard-container {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.company-metrics {
+    margin-bottom: 20px;
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/* Existing styles ... */
+
+.card {
+    width: 360px; /* Adjust card width as needed */
+    height: 80px;
+    background-color: #ffffff;
+    border-left: 6px solid rgb(6, 122, 62);
+    padding: 10px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+/* Add styling for your charts here */
+
+
+.chart-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chart-col {
+    width: calc(50% - 5px);
+    background-color: #141414;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+/* Add styling for your charts here */

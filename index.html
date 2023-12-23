@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram Login</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <form class="center" onsubmit="login(event)">
+            <div class="header">
+                <img src="./assets/imgs/logo.png" alt="Logo" class="logo" />
+            </div>
+            <div class="inputElement">
+                <input type="text" placeholder="Username" class="inputText" />                
+                <div id="username-error" class="error-message"></div>
+                <input type="password" placeholder="Password" class="inputText" />
+                <div id="password-error" class="error-message"></div>
+                <input type="submit" value="Login" class="inputButton" />
+                <div class="forgetPassword"><a href="mailto:support@smartserv.io?subject=Password%20Reset&body=Please%20provide%20details%20for%20password%20reset.">Forgot your Password?</a></div>
+            </div>
+        </form>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
